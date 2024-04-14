@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(https://dplnews.com/wp-content/uploads/2020/10/dplnews_SpaceX_mc261020.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ContainerNavbar{
+    width: 50%;
+    height: 50%;
+}
+
+.ContainerNavbar img{
+    width: 30%;
+    height: 30%;
+    background-size: cover;
+    padding: 10px;
+}
+
+.cardContainer{
+    margin: auto;
+    padding: 10%;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 38fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
